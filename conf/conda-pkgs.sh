@@ -2,6 +2,7 @@
 echo Current time $(date) Installing conda packages
 echo condadir is $CONDADIR
 
+conda install python=3.11
 conda config --set solver classic
 conda install --yes -n base conda-libmamba-solver
 conda config --set solver libmamba
