@@ -18,7 +18,7 @@ conda install --yes -c conda-forge -c anaconda -c nvidia -c defaults \
     joblib \
     jupyter \
     matplotlib \
-    numpy \
+    numpy=1.26.0 \
     scipy \
     tensorboard \
  && rm -rf $CONDADIR/pkgs/*
